@@ -1504,8 +1504,40 @@ make[3]: Leaving directory '/home/guohua/ubuntutest/test_guohua/build-area/hello
 make[2]: Leaving directory '/home/guohua/ubuntutest/test_guohua/build-area/hello-2.10'
 make[1]: Leaving directory '/home/guohua/ubuntutest/test_guohua/build-area/hello-2.10'
    dh_install
-dh_install: hello missing files: src/testing.sh
-dh_install: missing files, aborting
-debian/rules:18: recipe for target 'binary' failed
-make: *** [binary] Error 2
-dpkg-buildpackage: error: fakeroot debian/rules binary gave error exit status 2
+   dh_installdocs
+   dh_installchangelogs
+   dh_installman
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'hello' in '../hello_2.10-5_i386.deb'.
+ dpkg-genchanges  >../hello_2.10-5_i386.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build hello-2.10
+dpkg-buildpackage: full upload (original source is included)
+Now running lintian...
+W: hello source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: hello source: bad-homepage <insert the upstream URL, if relevant>
+W: hello source: quilt-series-but-no-build-dep
+W: hello source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 5)
+W: hello source: out-of-date-standards-version 3.9.6 (current is 3.9.7)
+W: hello: wrong-bug-number-in-closes l3:#nnnn
+E: hello: changelog-is-dh_make-template
+E: hello: helper-templates-in-copyright
+W: hello: copyright-has-url-from-dh_make-boilerplate
+E: hello: copyright-contains-dh_make-todo-boilerplate
+W: hello: readme-debian-contains-debmake-template
+E: hello: description-is-dh_make-template
+W: hello: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: hello: bad-homepage <insert the upstream URL, if relevant>
+W: hello: maintainer-script-empty preinst
+Finished running lintian.

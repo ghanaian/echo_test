@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 15 Jan 2023 22:10:51 +0800
+Source: hello
+Binary: hello
+Architecture: source i386
+Version: 2.10-5
+Distribution: xenial
+Urgency: medium
+Maintainer: Hua Guo <13911181992@139.com>
+Changed-By: Hua Guo <13911181992@139.com>
+Description:
+ hello      - echo test message for Hua Guo
+Changes:
+ hello (2.10-5) xenial; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 9a84c39646c4690332b105c64d2ffed5b2d08032 779 hello_2.10-5.dsc
+ f7bebf6f9c62a2295e889f66e05ce9bfaed9ace3 725946 hello_2.10.orig.tar.gz
+ 4fa747eafdc85b37761eb915965e1732a2e42f75 2435 hello_2.10-5.diff.gz
+ 6708d22169291a5306d5873c8c56124bfba9217a 44768 hello_2.10-5_i386.deb
+Checksums-Sha256:
+ b78125df99639705fed046db167e868529a8806c7e9a107f49335f05c6c22f2e 779 hello_2.10-5.dsc
+ 31e066137a962676e89f69d1b65382de95a7ef7d914b8cb956f41ea72e0f516b 725946 hello_2.10.orig.tar.gz
+ 82f65d66b27fdb2a316bf781cc2bde839218f9ef9e9feda0bb064a2adc392dcb 2435 hello_2.10-5.diff.gz
+ c54e70e63e2d0d0c0a87b151ebeef1cd49560a516784132568da058af3e55339 44768 hello_2.10-5_i386.deb
+Files:
+ 4bb8ac4a34dc3037f6d073fae4337ec0 779 utils optional hello_2.10-5.dsc
+ 6cd0ffea3884a4e79330338dcc2987d6 725946 utils optional hello_2.10.orig.tar.gz
+ 52165272c7f6eee78c15fcafe89787d5 2435 utils optional hello_2.10-5.diff.gz
+ 835e15bb2b4dce5baa06541327049b17 44768 utils optional hello_2.10-5_i386.deb
