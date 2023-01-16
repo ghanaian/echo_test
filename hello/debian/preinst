@@ -16,6 +16,7 @@ set -e
 
 case "$1" in
     install|upgrade)
+        echo "this is a test from Hua Guo"
     ;;
 
     abort-upgrade)

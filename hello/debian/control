@@ -1,5 +1,5 @@
 Source: hello
-Section: unknown
+Section: utils 
 Priority: optional
 Maintainer: Hua Guo <13911181992@139.com>
 Build-Depends: debhelper (>=9),autotools-dev
@@ -11,5 +11,5 @@ Homepage: <insert the upstream URL, if relevant>
 Package: hello
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
+Description: echo test message for Hua Guo
  <insert long description, indented with spaces>
