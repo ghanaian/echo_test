@@ -1,0 +1,5 @@
+hello (2.10-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Hua Guo <13911181992@139.com>  Mon, 16 Jan 2023 10:35:06 +0800
