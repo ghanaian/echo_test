@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 15 Jan 2023 22:10:51 +0800
+Source: hello
+Binary: hello
+Architecture: source
+Version: 2.10-7
+Distribution: xenial
+Urgency: medium
+Maintainer: Hua Guo <13911181992@139.com>
+Changed-By: Hua Guo <13911181992@139.com>
+Description:
+ hello      - echo test message for Hua Guo
+Changes:
+ hello (2.10-7) xenial; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ f4a135708db4a19734e1ea9ffdcba7b46f8175a3 1300 hello_2.10-7.dsc
+ f7bebf6f9c62a2295e889f66e05ce9bfaed9ace3 725946 hello_2.10.orig.tar.gz
+ d5fbdf30c1938fc195336ed9921300e2849be0bb 2769 hello_2.10-7.diff.gz
+Checksums-Sha256:
+ ce04544f3204d5856865406551b7bd2b05692234394ab39429475cb481e44feb 1300 hello_2.10-7.dsc
+ 31e066137a962676e89f69d1b65382de95a7ef7d914b8cb956f41ea72e0f516b 725946 hello_2.10.orig.tar.gz
+ d2673d047bf5d6277e110dc1be50959985d679071f5fc924662e8a27a8290a48 2769 hello_2.10-7.diff.gz
+Files:
+ d7fe1c9da1f2e7aea4f2d94cdc8e9a25 1300 utils optional hello_2.10-7.dsc
+ 6cd0ffea3884a4e79330338dcc2987d6 725946 utils optional hello_2.10.orig.tar.gz
+ bc789664de370fbc1a9c2dbee9e1e7bd 2769 utils optional hello_2.10-7.diff.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJj1peLAAoJEATxY0ACntW44WUH/00ntPTcjwEYFqAj4PdPe9Wn
+8EhKY2D0StK2ofJ2xfdCL62XmMB0WeOYB7DrSEJ1rvJDDsWnVBAbCzEhvJ1o3YUE
+cqZyc3T/EbHKOt30c4AQ/Nsc5jVFeOLfkqSt868FKgw0pZauZgIalWE9LtqYN8Hj
++ofnGAqaqH4ICbVuqASAyFp6vnrP/fW5CnYpxxxsI37DH2fRRZPcg4JmU6xAenXt
+EbvMtYQzzqDfhJiCIKr1AIZ5cROyHZc8tp+F7yxQEPuPlPMq6GRwZ0pCW1zjm8r3
+ggHz+htVc/NcWKxm7ngRv4PKhXRandLED7al4EO30FZiuxF9dZOUh3ga5uc8ZUc=
+=fVGz
+-----END PGP SIGNATURE-----
