@@ -1,7 +1,14 @@
 # echo_test
-debian package for echo message "this is a test from Hua Guo" in both install and execution
-Fails of adding patch to add and install testing.sh 
-Successful to echo "this is a test from Hua Guo" in apt install
+All functionalities work as expected now.
+
+$dpkg -S /usr/bin/testing.sh; /usr/bin/testing.sh
+hello: /usr/bin/testing.sh
+this is a test from Hua Guo
+
+
+debian package for echo message "this is a test from Hua Guo" in installation
+Successfully add patch and install testing.sh 
+Successfully echo "this is a test from Hua Guo" in apt install
 
 
 1) create patch file diff
